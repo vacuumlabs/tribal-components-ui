@@ -2,7 +2,7 @@
   "expo": {
     "name": "Tribal Components UI",
     "slug": "tribal-components-ui",
-    "privacy": "public",
+    "privacy": "private",
     "sdkVersion": "36.0.0",
     "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
