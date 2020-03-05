@@ -16,6 +16,7 @@ export {default as Link} from './Link/Link'
 export {default as ListButton} from './ListButton/ListButton'
 export {default as ListItem} from './ListItem/ListItem'
 export {default as LoadingView} from './LoadingView/LoadingView'
+export {default as NoInternetBanner} from './NoInternetBanner/NoInternetBanner'
 export {
   default as NoInternetProvider,
   NoInternetContext,
