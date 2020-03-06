@@ -4,7 +4,8 @@
   "scripts": {
     "start": "expo start",
     "eject": "expo eject",
-    "storybook": "concurrently \"yarn start --web\" \"start-storybook -p 7007\"",
+    "storybook": "concurrently \"yarn start\" \"start-storybook -p 7007\"",
+    "storybook-web": "concurrently \"yarn start --web\" \"start-storybook -p 7007\"",
     "prestorybook": "rnstl"
   },
   "dependencies": {

@@ -4,11 +4,13 @@
 
 Run
 
-```
-yarn storybook
+```sh
+yarn storybook # mobile only
+# or
+yarn storybook-web # mobile + browser
 ```
 
-It will start storybook on mobile (through Expo app) and in browser.
+It will start storybook on mobile (through Expo app) or in browser.
 
 ## Use components in your project
 
