@@ -2,7 +2,10 @@
   "name": "tribal-components-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "src/components/ui/index.ts",
+  "main": "./src/components/index.ts",
+  "exports": {
+    "./": "./src/components/ui/"
+  },
   "private": true,
   "scripts": {
     "start": "expo start",
