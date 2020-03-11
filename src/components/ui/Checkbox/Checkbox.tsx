@@ -1,4 +1,6 @@
-import {Icon, Text, TextWithLinks} from '@components/ui'
+import Icon from '@components/ui/Icon/Icon'
+import Text from '@components/ui/Text/Text'
+import TextWithLinks from '@components/ui/TextWithLinks/TextWithLinks'
 import React from 'react'
 import {StyleSheet, TouchableHighlight, View} from 'react-native'
 

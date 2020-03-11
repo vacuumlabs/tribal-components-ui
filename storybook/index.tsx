@@ -31,7 +31,7 @@ addDecorator((getStory: () => React.ReactNode, {kind}: {kind: string}) => {
 // To find allowed options for getStorybookUI
 const StorybookUIRoot = getStorybookUI({
   port: 7007,
-  asyncStorage: require('react-native').AsyncStorage,
+  asyncStorage: null,
 })
 
 export default StorybookUIRoot

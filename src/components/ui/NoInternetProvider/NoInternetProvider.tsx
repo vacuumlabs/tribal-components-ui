@@ -1,4 +1,4 @@
-import {NoInternetBanner} from '@components/ui'
+import NoInternetBanner from '@components/ui/NoInternetBanner/NoInternetBanner'
 import NetInfo, {NetInfoState} from '@react-native-community/netinfo'
 import React, {createContext, useCallback, useEffect, useState} from 'react'
 import {StyleSheet, View} from 'react-native'

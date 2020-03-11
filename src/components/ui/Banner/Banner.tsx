@@ -1,4 +1,4 @@
-import {Text} from '@components/ui'
+import Text from '@components/ui/Text/Text'
 import React from 'react'
 import {Dimensions, Image, ImageSourcePropType, StyleSheet, View} from 'react-native'
 

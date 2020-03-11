@@ -1,4 +1,5 @@
-import {Button, Text} from '@components/ui'
+import Button from '@components/ui/Button/Button'
+import Text from '@components/ui/Text/Text'
 import React, {useEffect, useRef, useState} from 'react'
 import {Animated, StyleSheet, TextInput, TextInputProps, View} from 'react-native'
 

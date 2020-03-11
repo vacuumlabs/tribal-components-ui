@@ -1,4 +1,4 @@
-import {Toast} from '@components/ui'
+import Toast from '@components/ui/Toast/Toast'
 import {uniqueId} from 'lodash'
 import React, {createContext, useCallback, useEffect, useState} from 'react'
 import {Animated, StyleSheet, View} from 'react-native'

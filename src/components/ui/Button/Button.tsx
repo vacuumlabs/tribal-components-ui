@@ -1,4 +1,5 @@
-import {Icon, IconName, Text} from '@components/ui'
+import Icon, {IconName} from '@components/ui/Icon/Icon'
+import Text from '@components/ui/Text/Text'
 import LottieView from 'lottie-react-native'
 import React from 'react'
 import {

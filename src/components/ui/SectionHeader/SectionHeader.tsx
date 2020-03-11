@@ -1,4 +1,6 @@
-import {Avatar, IconName, Text} from '@components/ui'
+import Avatar from '@components/ui/Avatar/Avatar'
+import {IconName} from '@components/ui/Icon/Icon'
+import Text from '@components/ui/Text/Text'
 import {STYLES} from '@utils/constants'
 import React from 'react'
 import {StyleSheet, View} from 'react-native'

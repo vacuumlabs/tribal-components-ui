@@ -1,5 +1,5 @@
 import {Button, ErrorView, Text} from '@components/ui'
-import {TransactionSectionHeader} from '@components/ui/transactions'
+import TransactionSectionHeader from '@components/ui/transactions/TransactionSectionHeader/TransactionSectionHeader'
 import {formatMessage} from '@utils/formats'
 import LottieView from 'lottie-react-native'
 import React, {ReactElement, useEffect, useRef, useState} from 'react'

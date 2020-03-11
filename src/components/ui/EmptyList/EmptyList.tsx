@@ -1,4 +1,6 @@
-import {Button, IconName, SectionHeader} from '@components/ui'
+import Button from '@components/ui/Button/Button'
+import {IconName} from '@components/ui/Icon/Icon'
+import SectionHeader from '@components/ui/SectionHeader/SectionHeader'
 import React from 'react'
 import {StyleProp, StyleSheet, View, ViewStyle} from 'react-native'
 

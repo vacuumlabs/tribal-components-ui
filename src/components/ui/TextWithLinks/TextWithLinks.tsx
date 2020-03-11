@@ -1,4 +1,4 @@
-import {Text} from '@components/ui'
+import Text from '@components/ui/Text/Text'
 import {getTextWithLinksRegex} from '@utils/helpers'
 import React from 'react'
 import {Linking, StyleSheet, TextProps} from 'react-native'

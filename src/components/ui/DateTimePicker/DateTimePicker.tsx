@@ -1,4 +1,4 @@
-import {Text} from '@components/ui'
+import Text from '@components/ui/Text/Text'
 import React from 'react'
 import {StyleProp, StyleSheet, View, ViewStyle} from 'react-native'
 import DatePicker from 'rmc-date-picker'

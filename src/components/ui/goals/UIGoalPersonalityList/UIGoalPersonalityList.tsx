@@ -1,7 +1,7 @@
-import {UIGoalPersonalityItem} from '@components/ui/goals'
+import {GOALS_IMAGES} from '@components/ui/goals/goals'
+import UIGoalPersonalityItem from '@components/ui/goals/UIGoalPersonalityItem/UIGoalPersonalityItem'
 import React from 'react'
 import {FlatList} from 'react-native'
-import {GOALS_IMAGES} from '../goals'
 
 interface UIGoalPersonalityListProps {
   onPress: (personality: string) => void

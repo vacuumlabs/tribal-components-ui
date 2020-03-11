@@ -1,4 +1,4 @@
-import {Text} from '@components/ui'
+import Text from '@components/ui/Text/Text'
 import React, {useRef} from 'react'
 import {
   KeyboardType,

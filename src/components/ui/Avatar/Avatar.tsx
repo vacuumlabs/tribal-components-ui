@@ -1,4 +1,5 @@
-import {Icon, IconName, Text} from '@components/ui'
+import Icon, {IconName} from '@components/ui/Icon/Icon'
+import Text from '@components/ui/Text/Text'
 import React from 'react'
 import {Image, ImageSourcePropType, StyleSheet, View} from 'react-native'
 

@@ -1,4 +1,5 @@
-import {Badge, BadgeProps, Text} from '@components/ui'
+import Badge, {BadgeProps} from '@components/ui/Badge/Badge'
+import Text from '@components/ui/Text/Text'
 import {formatMessage} from '@utils/formats'
 import React, {ReactNode} from 'react'
 import {StyleSheet, TouchableHighlight, View} from 'react-native'
