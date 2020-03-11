@@ -1,5 +1,8 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
+  "name": "tribal-components-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/components/ui/index.ts",
   "private": true,
   "scripts": {
     "start": "expo start",
