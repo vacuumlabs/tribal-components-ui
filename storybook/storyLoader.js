@@ -23,6 +23,7 @@ function loadStories() {
 	require('../src/components/ui/ListItem/ListItem.stories');
 	require('../src/components/ui/LoadingView/LoadingView.stories');
 	require('../src/components/ui/NoInternetBanner/NoInternetBanner.stories');
+	require('../src/components/ui/NoInternetProvider/NoInternetProvider.stories');
 	require('../src/components/ui/ProgressBar/ProgressBar.stories');
 	require('../src/components/ui/PropertyItem/PropertyItem.stories');
 	require('../src/components/ui/RadioButton/RadioButton.stories');
@@ -66,6 +67,7 @@ const stories = [
 	'../src/components/ui/ListItem/ListItem.stories',
 	'../src/components/ui/LoadingView/LoadingView.stories',
 	'../src/components/ui/NoInternetBanner/NoInternetBanner.stories',
+	'../src/components/ui/NoInternetProvider/NoInternetProvider.stories',
 	'../src/components/ui/ProgressBar/ProgressBar.stories',
 	'../src/components/ui/PropertyItem/PropertyItem.stories',
 	'../src/components/ui/RadioButton/RadioButton.stories',

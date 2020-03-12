@@ -1,9 +1,9 @@
 import {init} from '@utils/helpers'
-import {AppLoading} from 'expo'
+import {AppLoading, registerRootComponent} from 'expo'
 import React, {useState} from 'react'
 import Storybook from './storybook/index'
 
-export default () => {
+const App = () => {
   const [loading, setLoading] = useState(true)
 
   if (loading)
@@ -12,3 +12,5 @@ export default () => {
     )
   return <Storybook />
 }
+
+registerRootComponent(App)

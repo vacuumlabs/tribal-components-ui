@@ -2,6 +2,7 @@
   "expo": {
     "name": "Tribal Components UI",
     "slug": "tribal-components-ui",
+    "entryPoint": "./App.tsx",
     "privacy": "unlisted",
     "sdkVersion": "36.0.0",
     "platforms": ["ios", "android", "web"],
