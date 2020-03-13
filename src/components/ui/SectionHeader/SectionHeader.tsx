@@ -1,6 +1,6 @@
-import {STYLES} from '@utils/constants'
 import React from 'react'
 import {StyleSheet, View} from 'react-native'
+import {STYLES} from '../../../utils/constants'
 import Avatar from '../Avatar/Avatar'
 import {IconName} from '../Icon/Icon'
 import Text from '../Text/Text'

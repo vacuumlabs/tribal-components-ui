@@ -1,4 +1,3 @@
-import {formatMessage} from '@utils/formats'
 import {LinearGradient} from 'expo-linear-gradient'
 import React, {ReactElement} from 'react'
 import {
@@ -10,6 +9,7 @@ import {
   TouchableWithoutFeedback,
   View,
 } from 'react-native'
+import {formatMessage} from '../../../../utils/formats'
 import Icon from '../../Icon/Icon'
 import Text from '../../Text/Text'
 

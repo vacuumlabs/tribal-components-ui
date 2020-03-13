@@ -1,6 +1,6 @@
-import {formatMessage} from '@utils/formats'
 import React, {useCallback, useEffect, useState} from 'react'
 import {Animated, StyleSheet, Text, TouchableWithoutFeedback} from 'react-native'
+import {formatMessage} from '../../../utils/formats'
 
 const SLIDE_TIME = 500
 const SHOW_TIME = 2000

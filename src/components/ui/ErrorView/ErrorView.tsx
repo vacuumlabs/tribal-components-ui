@@ -1,6 +1,6 @@
-import {formatMessage} from '@utils/formats'
 import React from 'react'
 import {StyleSheet, View} from 'react-native'
+import {formatMessage} from '../../../utils/formats'
 import Button from '../Button/Button'
 import Text from '../Text/Text'
 

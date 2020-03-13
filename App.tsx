@@ -1,6 +1,6 @@
-import {init} from '@utils/helpers'
 import {AppLoading, registerRootComponent} from 'expo'
 import React, {useState} from 'react'
+import {init} from './src/utils/helpers'
 import Storybook from './storybook/index'
 
 const App = () => {

@@ -1,6 +1,6 @@
-import {getTextWithLinksRegex} from '@utils/helpers'
 import React from 'react'
 import {Linking, StyleSheet, TextProps} from 'react-native'
+import {getTextWithLinksRegex} from '../../../utils/helpers'
 import Text from '../Text/Text'
 
 const styles = StyleSheet.create({

@@ -2,7 +2,6 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@utils/*": ["src/utils/*"],
       "@assets/*": ["assets/*"]
     },
     "allowJs": true,

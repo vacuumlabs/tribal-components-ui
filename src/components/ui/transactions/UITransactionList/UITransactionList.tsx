@@ -1,4 +1,3 @@
-import {formatMessage} from '@utils/formats'
 import LottieView from 'lottie-react-native'
 import React, {ReactElement, useEffect, useRef, useState} from 'react'
 import {
@@ -10,6 +9,7 @@ import {
   SectionList,
   StyleSheet,
 } from 'react-native'
+import {formatMessage} from '../../../../utils/formats'
 import Button from '../../Button/Button'
 import ErrorView from '../../ErrorView/ErrorView'
 import Text from '../../Text/Text'
