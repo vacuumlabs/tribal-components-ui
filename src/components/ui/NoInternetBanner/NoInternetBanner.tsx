@@ -1,8 +1,8 @@
-import Icon from '@components/ui/Icon/Icon'
-import Text from '@components/ui/Text/Text'
 import {formatMessage} from '@utils/formats'
 import React from 'react'
 import {StyleProp, StyleSheet, View, ViewStyle} from 'react-native'
+import Icon from '../Icon/Icon'
+import Text from '../Text/Text'
 
 const styles = StyleSheet.create({
   banner: {

@@ -1,6 +1,6 @@
-import {InputField} from '@components/ui'
 import {storiesOf} from '@storybook/react-native'
 import React, {useState} from 'react'
+import InputField from './InputField'
 
 interface InputFieldRendererProps {
   render: (value: string, setValue: (value: string) => void) => JSX.Element

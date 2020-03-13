@@ -1,7 +1,7 @@
-import {SegmentedControl} from '@components/ui'
 import {array, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React, {useState} from 'react'
+import SegmentedControl from './SegmentedControl'
 
 interface SegmentedControlRendererProps {
   render: (value: number, setValue: (value: number) => void) => JSX.Element

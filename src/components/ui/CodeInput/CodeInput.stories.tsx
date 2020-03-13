@@ -1,6 +1,6 @@
-import {CodeInput} from '@components/ui'
 import {storiesOf} from '@storybook/react-native'
 import React, {useState} from 'react'
+import CodeInput from './CodeInput'
 
 interface CodeInputRendererProps {
   render: (value: string, setValue: (value: string) => void) => JSX.Element

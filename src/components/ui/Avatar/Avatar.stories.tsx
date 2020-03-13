@@ -1,7 +1,7 @@
-import {Avatar} from '@components/ui'
 import {color, select, text, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import Avatar from './Avatar'
 
 storiesOf('Avatar', module)
   .addDecorator(withKnobs)

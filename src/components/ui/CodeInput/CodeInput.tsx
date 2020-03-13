@@ -1,4 +1,3 @@
-import Text from '@components/ui/Text/Text'
 import React, {useRef} from 'react'
 import {
   KeyboardType,
@@ -8,6 +7,7 @@ import {
   TouchableWithoutFeedback,
   View,
 } from 'react-native'
+import Text from '../Text/Text'
 
 const styles = StyleSheet.create({
   container: {

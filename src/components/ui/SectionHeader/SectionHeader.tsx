@@ -1,9 +1,9 @@
-import Avatar from '@components/ui/Avatar/Avatar'
-import {IconName} from '@components/ui/Icon/Icon'
-import Text from '@components/ui/Text/Text'
 import {STYLES} from '@utils/constants'
 import React from 'react'
 import {StyleSheet, View} from 'react-native'
+import Avatar from '../Avatar/Avatar'
+import {IconName} from '../Icon/Icon'
+import Text from '../Text/Text'
 
 const styles = StyleSheet.create({
   shadowContainer: {

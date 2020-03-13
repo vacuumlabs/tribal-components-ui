@@ -1,6 +1,6 @@
-import {Icon} from '@components/ui'
 import React from 'react'
 import {Platform, StyleSheet} from 'react-native'
+import Icon from '../../Icon/Icon'
 
 const styles = StyleSheet.create({
   icon: {

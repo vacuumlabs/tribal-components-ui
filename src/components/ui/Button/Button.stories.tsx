@@ -1,8 +1,8 @@
-import {Button} from '@components/ui'
 import {action} from '@storybook/addon-actions'
 import {boolean, select, text, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import Button from './Button'
 
 storiesOf('Button', module)
   .addDecorator(withKnobs)

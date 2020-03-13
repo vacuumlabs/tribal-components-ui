@@ -1,4 +1,3 @@
-import {Icon, Text} from '@components/ui'
 import {formatMessage} from '@utils/formats'
 import {LinearGradient} from 'expo-linear-gradient'
 import React, {ReactElement} from 'react'
@@ -11,6 +10,8 @@ import {
   TouchableWithoutFeedback,
   View,
 } from 'react-native'
+import Icon from '../../Icon/Icon'
+import Text from '../../Text/Text'
 
 export const CARD_HEIGHT = (Dimensions.get('window').width - 32) / 1.64 // divide by card ratio
 

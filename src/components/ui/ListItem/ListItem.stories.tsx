@@ -1,7 +1,8 @@
-import {Avatar, ListItem} from '@components/ui'
 import {storiesOf} from '@storybook/react-native'
 import {formatMessage} from '@utils/formats'
 import React from 'react'
+import Avatar from '../Avatar/Avatar'
+import ListItem from './ListItem'
 
 storiesOf('ListItem', module)
   .add('ATM Withdrawal', () => (

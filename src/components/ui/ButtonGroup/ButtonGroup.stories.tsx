@@ -1,7 +1,8 @@
-import {Button, ButtonGroup} from '@components/ui'
 import {action} from '@storybook/addon-actions'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import Button from '../Button/Button'
+import ButtonGroup from './ButtonGroup'
 
 storiesOf('ButtonGroup', module)
   .add('horizontal', () => (

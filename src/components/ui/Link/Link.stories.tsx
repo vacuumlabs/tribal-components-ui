@@ -1,8 +1,8 @@
-import {Link} from '@components/ui'
 import {action} from '@storybook/addon-actions'
 import {color, select, text, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import Link from './Link'
 
 storiesOf('Link', module)
   .addDecorator(withKnobs)

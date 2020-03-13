@@ -1,7 +1,8 @@
-import {Button, Text} from '@components/ui'
 import {formatMessage} from '@utils/formats'
 import React from 'react'
 import {ActivityIndicator, StyleSheet, View} from 'react-native'
+import Button from '../../Button/Button'
+import Text from '../../Text/Text'
 
 const styles = StyleSheet.create({
   status: {

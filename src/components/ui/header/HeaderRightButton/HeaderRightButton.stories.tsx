@@ -1,8 +1,8 @@
-import {HeaderRightButton} from '@components/ui/header'
 import {action} from '@storybook/addon-actions'
 import {select, text, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import HeaderRightButton from './HeaderRightButton'
 
 storiesOf('HeaderRightButton', module)
   .addDecorator(withKnobs)

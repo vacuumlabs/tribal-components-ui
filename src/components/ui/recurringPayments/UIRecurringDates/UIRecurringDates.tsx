@@ -1,6 +1,7 @@
-import {DateTimePicker, SegmentedControl} from '@components/ui'
 import React, {useCallback, useState} from 'react'
 import {StyleProp, StyleSheet, View, ViewStyle} from 'react-native'
+import DateTimePicker from '../../DateTimePicker/DateTimePicker'
+import SegmentedControl from '../../SegmentedControl/SegmentedControl'
 
 const styles = StyleSheet.create({
   frequencyPicker: {

@@ -1,7 +1,7 @@
-import Text from '@components/ui/Text/Text'
 import React, {useEffect, useRef, useState} from 'react'
 import {Animated, Dimensions, Easing, Image, StyleSheet, View, ViewStyle} from 'react-native'
 import RNCarousel from 'react-native-snap-carousel'
+import Text from '../Text/Text'
 
 const styles = StyleSheet.create({
   wrapper: {

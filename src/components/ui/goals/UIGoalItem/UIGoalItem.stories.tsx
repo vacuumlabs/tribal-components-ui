@@ -1,8 +1,8 @@
-import {UIGoalItem} from '@components/ui/goals'
 import {action} from '@storybook/addon-actions'
 import {boolean, number, text, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import UIGoalItem from './UIGoalItem'
 
 storiesOf('UIGoalItem', module)
   .addDecorator(withKnobs)

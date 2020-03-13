@@ -1,7 +1,7 @@
-import {Badge} from '@components/ui'
 import {select, text, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import Badge from './Badge'
 
 storiesOf('Badge', module)
   .addDecorator(withKnobs)

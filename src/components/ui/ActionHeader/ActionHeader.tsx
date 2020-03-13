@@ -1,6 +1,6 @@
-import Text from '@components/ui/Text/Text'
 import React from 'react'
 import {GestureResponderEvent, StyleSheet, TouchableOpacity, View} from 'react-native'
+import Text from '../Text/Text'
 
 export const ACTION_HEADER_HEIGHT = 56
 

@@ -1,8 +1,8 @@
-import {EmptyList} from '@components/ui'
 import {action} from '@storybook/addon-actions'
 import {select, text, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import EmptyList from './EmptyList'
 
 storiesOf('EmptyList', module)
   .addDecorator(withKnobs)

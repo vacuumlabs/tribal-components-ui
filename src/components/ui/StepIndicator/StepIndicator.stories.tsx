@@ -1,7 +1,7 @@
-import {StepIndicator} from '@components/ui'
 import {number, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import StepIndicator from './StepIndicator'
 
 storiesOf('StepIndicator', module)
   .addDecorator(withKnobs)

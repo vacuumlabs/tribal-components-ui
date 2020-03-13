@@ -1,6 +1,6 @@
-import {DateTimePicker} from '@components/ui'
 import {storiesOf} from '@storybook/react-native'
 import React, {useState} from 'react'
+import DateTimePicker from './DateTimePicker'
 
 interface DateTimePickerRendererProps {
   render: (dateString: string, date: Date, setDate: (date: Date) => void) => JSX.Element

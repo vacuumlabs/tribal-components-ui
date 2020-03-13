@@ -1,7 +1,7 @@
-import {ProgressBar} from '@components/ui'
 import {color, number, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import ProgressBar from './ProgressBar'
 
 storiesOf('ProgressBar', module)
   .addDecorator(withKnobs)

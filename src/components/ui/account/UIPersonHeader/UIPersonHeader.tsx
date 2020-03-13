@@ -1,8 +1,10 @@
-import {Button, Link, Text} from '@components/ui'
 import {LinearGradient} from 'expo-linear-gradient'
 import LottieView from 'lottie-react-native'
 import React from 'react'
 import {StyleSheet, View} from 'react-native'
+import Button from '../../Button/Button'
+import Link from '../../Link/Link'
+import Text from '../../Text/Text'
 
 const styles = StyleSheet.create({
   container: {

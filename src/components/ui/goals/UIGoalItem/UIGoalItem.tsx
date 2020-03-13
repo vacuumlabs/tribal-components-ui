@@ -1,8 +1,9 @@
-import {ProgressBar, Text} from '@components/ui'
-import {GOALS_IMAGES} from '@components/ui/goals/goals'
 import {formatMessage} from '@utils/formats'
 import React from 'react'
 import {Image, Platform, StyleSheet, TouchableHighlight, View} from 'react-native'
+import ProgressBar from '../../ProgressBar/ProgressBar'
+import Text from '../../Text/Text'
+import {GOALS_IMAGES} from '../goals'
 
 const styles = StyleSheet.create({
   touchable: {

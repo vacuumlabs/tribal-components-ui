@@ -1,7 +1,8 @@
-import {Button, Toast} from '@components/ui'
 import {storiesOf} from '@storybook/react-native'
 import React, {useState} from 'react'
 import {StyleSheet, View} from 'react-native'
+import Button from '../Button/Button'
+import Toast from './Toast'
 
 const styles = StyleSheet.create({
   container: {

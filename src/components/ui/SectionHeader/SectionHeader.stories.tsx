@@ -1,7 +1,7 @@
-import {SectionHeader} from '@components/ui'
 import {boolean, select, text, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import SectionHeader from './SectionHeader'
 
 storiesOf('SectionHeader', module)
   .addDecorator(withKnobs)

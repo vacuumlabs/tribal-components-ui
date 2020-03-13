@@ -1,7 +1,7 @@
-import {Text} from '@components/ui'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
 import {StyleSheet, View} from 'react-native'
+import Text from './Text'
 
 const styles = StyleSheet.create({
   separator: {

@@ -1,6 +1,6 @@
-import {Text} from '@components/ui'
 import React from 'react'
 import {Animated, StyleSheet, TextProps} from 'react-native'
+import Text from '../../Text/Text'
 
 const styles = StyleSheet.create({
   text: {

@@ -1,7 +1,7 @@
-import {Icon} from '@components/ui'
 import {color, select, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import Icon from './Icon'
 
 storiesOf('Icon', module)
   .addDecorator(withKnobs)

@@ -1,7 +1,7 @@
-import {Checkbox} from '@components/ui'
 import {text, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React, {useState} from 'react'
+import Checkbox from './Checkbox'
 
 interface CheckboxRendererProps {
   render: (value: boolean, setValue: (value: boolean) => void) => JSX.Element

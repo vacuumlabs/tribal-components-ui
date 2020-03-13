@@ -1,5 +1,3 @@
-import Icon, {IconName} from '@components/ui/Icon/Icon'
-import Text from '@components/ui/Text/Text'
 import LottieView from 'lottie-react-native'
 import React from 'react'
 import {
@@ -11,6 +9,8 @@ import {
   View,
   ViewStyle,
 } from 'react-native'
+import Icon, {IconName} from '../Icon/Icon'
+import Text from '../Text/Text'
 
 const styles = StyleSheet.create({
   touchable: {

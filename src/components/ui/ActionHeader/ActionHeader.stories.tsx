@@ -1,8 +1,8 @@
-import {ActionHeader} from '@components/ui'
 import {action} from '@storybook/addon-actions'
 import {text, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import ActionHeader from './ActionHeader'
 
 storiesOf('ActionHeader', module)
   .addDecorator(withKnobs)

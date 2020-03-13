@@ -1,6 +1,7 @@
-import {NoInternetContext, NoInternetProvider, Text} from '@components/ui'
 import {storiesOf} from '@storybook/react-native'
 import React, {useContext} from 'react'
+import Text from '../Text/Text'
+import NoInternetProvider, {NoInternetContext} from './NoInternetProvider'
 
 const TextScreen = () => {
   const {noInternet} = useContext(NoInternetContext)

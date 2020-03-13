@@ -1,7 +1,7 @@
-import {TextWithLinks} from '@components/ui'
 import {text, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import TextWithLinks from './TextWithLinks'
 
 storiesOf('TextWithLinks', module)
   .addDecorator(withKnobs)

@@ -1,7 +1,7 @@
-import {Switch} from '@components/ui'
 import {boolean, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React, {useState} from 'react'
+import Switch from './Switch'
 
 interface SwitchRendererProps {
   render: (value: boolean, setValue: (value: boolean) => void) => JSX.Element

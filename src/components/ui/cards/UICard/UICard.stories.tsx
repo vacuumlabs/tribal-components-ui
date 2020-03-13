@@ -1,8 +1,8 @@
-import {UICard} from '@components/ui/cards'
 import {action} from '@storybook/addon-actions'
 import {boolean, text, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import UICard from './UICard'
 
 storiesOf('UICard', module)
   .addDecorator(withKnobs)

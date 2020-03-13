@@ -1,6 +1,6 @@
-import Text from '@components/ui/Text/Text'
 import React from 'react'
 import {Dimensions, Image, ImageSourcePropType, StyleSheet, View} from 'react-native'
+import Text from '../Text/Text'
 
 const styles = StyleSheet.create({
   header: {

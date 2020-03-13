@@ -1,7 +1,7 @@
-import {Icon} from '@components/ui'
-import {GOALS_IMAGES} from '@components/ui/goals/goals'
 import React from 'react'
 import {Image, StyleProp, StyleSheet, TouchableOpacity, View, ViewStyle} from 'react-native'
+import Icon from '../../Icon/Icon'
+import {GOALS_IMAGES} from '../goals'
 
 const styles = StyleSheet.create({
   touchable: {

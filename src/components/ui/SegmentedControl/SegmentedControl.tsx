@@ -1,4 +1,3 @@
-import Text from '@components/ui/Text/Text'
 import React from 'react'
 import {
   GestureResponderEvent,
@@ -8,6 +7,7 @@ import {
   View,
   ViewStyle,
 } from 'react-native'
+import Text from '../Text/Text'
 
 const styles = StyleSheet.create({
   container: {

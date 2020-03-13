@@ -1,6 +1,7 @@
-import {Icon, IconName, Text} from '@components/ui'
 import React from 'react'
 import {StyleSheet, TouchableOpacity} from 'react-native'
+import Icon, {IconName} from '../../Icon/Icon'
+import Text from '../../Text/Text'
 
 const styles = StyleSheet.create({
   container: {

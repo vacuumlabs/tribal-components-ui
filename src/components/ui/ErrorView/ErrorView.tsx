@@ -1,8 +1,8 @@
-import Button from '@components/ui/Button/Button'
-import Text from '@components/ui/Text/Text'
 import {formatMessage} from '@utils/formats'
 import React from 'react'
 import {StyleSheet, View} from 'react-native'
+import Button from '../Button/Button'
+import Text from '../Text/Text'
 
 const styles = StyleSheet.create({
   wrapper: {

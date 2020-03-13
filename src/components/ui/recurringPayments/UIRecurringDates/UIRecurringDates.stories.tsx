@@ -1,7 +1,7 @@
-import {UIRecurringDates} from '@components/ui/recurringPayments'
 import {date, object, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React, {useState} from 'react'
+import UIRecurringDates from './UIRecurringDates'
 
 interface UIRecurringDatesRendererProps {
   render: (

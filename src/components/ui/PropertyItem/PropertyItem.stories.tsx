@@ -1,7 +1,7 @@
-import {PropertyItem} from '@components/ui'
 import {text, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
+import PropertyItem from './PropertyItem'
 
 storiesOf('PropertyItem', module)
   .addDecorator(withKnobs)

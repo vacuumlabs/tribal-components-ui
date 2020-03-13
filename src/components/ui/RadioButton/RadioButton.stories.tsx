@@ -1,7 +1,7 @@
-import {RadioButton} from '@components/ui'
 import {object, withKnobs} from '@storybook/addon-knobs'
 import {storiesOf} from '@storybook/react-native'
 import React, {useState} from 'react'
+import RadioButton from './RadioButton'
 
 interface RadioButtonRendererProps {
   render: (value: boolean, setValue: (value: boolean) => void) => JSX.Element
