@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "./src/components/index.ts",
+  "files": [
+    "./src",
+    "./types",
+    "./assets"
+  ],
   "private": true,
   "scripts": {
     "start": "expo start",

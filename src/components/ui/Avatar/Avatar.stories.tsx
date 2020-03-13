@@ -14,4 +14,4 @@ storiesOf('Avatar', module)
     />
   ))
   .add('initials', () => <Avatar initials={text('initials', 'JS')} />)
-  .add('image', () => <Avatar image={require('@assets/images/bertie.jpg')} />)
+  .add('image', () => <Avatar image={require('../../../../assets/images/bertie.jpg')} />)

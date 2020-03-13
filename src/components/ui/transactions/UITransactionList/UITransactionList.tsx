@@ -129,7 +129,7 @@ const UITransactionList = <Transaction extends {id: string}>({
         ListEmptyComponent={
           loading ? (
             <LottieView
-              source={require('@assets/lottie/transactions.json')}
+              source={require('../../../../../assets/lottie/transactions.json')}
               autoPlay
               loop
               style={{width: Dimensions.get('window').width}}

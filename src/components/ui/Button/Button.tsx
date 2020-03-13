@@ -170,7 +170,7 @@ const Button = ({
       <View style={[styles.container, styles[size]]}>
         {loading ? (
           <LottieView
-            source={require('@assets/lottie/loading-bullets.json')}
+            source={require('../../../../assets/lottie/loading-bullets.json')}
             autoPlay
             loop
             speed={1}

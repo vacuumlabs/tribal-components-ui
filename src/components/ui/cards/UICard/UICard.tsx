@@ -148,8 +148,8 @@ const CARD_GRADIENT = {
 }
 
 const logos: {[key: string]: ImageSourcePropType} = {
-  mastercard: require('@assets/images/card/mastercard-logo.png'),
-  visa: require('@assets/images/card/visa-white-logo.png'),
+  mastercard: require('../../../../../assets/images/card/mastercard-logo.png'),
+  visa: require('../../../../../assets/images/card/visa-white-logo.png'),
 }
 
 interface CardBackgroundProps {
@@ -160,8 +160,14 @@ const CardBackground = ({children}: CardBackgroundProps) => {
   return (
     <View style={styles.card}>
       <LinearGradient {...CARD_GRADIENT} style={[StyleSheet.absoluteFill, styles.background]} />
-      <Image source={require('@assets/images/card/img-card-chip.png')} style={styles.chip} />
-      <Image source={require('@assets/images/card/img-card-icon.png')} style={styles.icon} />
+      <Image
+        source={require('../../../../../assets/images/card/img-card-chip.png')}
+        style={styles.chip}
+      />
+      <Image
+        source={require('../../../../../assets/images/card/img-card-icon.png')}
+        style={styles.icon}
+      />
       {children}
     </View>
   )
@@ -265,24 +271,26 @@ const UICard = ({
   return (
     <CardBackground>
       <TouchableWithoutFeedback onPress={onPress} style={styles.invisibleButton}>
-        <View style={styles.pan}>
-          <Text style={styles.cardEmbossText}>{maskedPan}</Text>
-        </View>
+        <View>
+          <View style={styles.pan}>
+            <Text style={styles.cardEmbossText}>{maskedPan}</Text>
+          </View>
 
-        {onPress ? (
-          <View style={styles.action}>
-            <Text variant="headline" style={styles.nameText}>
-              {formatMessage('card', 'viewCard')}
-            </Text>
-            <Icon name="chevron-down" color="#fff" style={styles.actionIcon} />
-          </View>
-        ) : (
-          <View style={styles.expiryContainer}>
-            <Text style={styles.expiryLabelText}>{formatMessage('card', 'expiry')}</Text>
-            <Text style={styles.expiryValueText}>{expirationDate}</Text>
-          </View>
-        )}
-        <Image source={logos['mastercard']} style={styles.cardLogo} resizeMode="contain" />
+          {onPress ? (
+            <View style={styles.action}>
+              <Text variant="headline" style={styles.nameText}>
+                {formatMessage('card', 'viewCard')}
+              </Text>
+              <Icon name="chevron-down" color="#fff" style={styles.actionIcon} />
+            </View>
+          ) : (
+            <View style={styles.expiryContainer}>
+              <Text style={styles.expiryLabelText}>{formatMessage('card', 'expiry')}</Text>
+              <Text style={styles.expiryValueText}>{expirationDate}</Text>
+            </View>
+          )}
+          <Image source={logos['mastercard']} style={styles.cardLogo} resizeMode="contain" />
+        </View>
       </TouchableWithoutFeedback>
     </CardBackground>
   )

@@ -80,7 +80,7 @@ const UIPersonHeader = ({
       <View style={styles.gradientWrapper}>
         {hasNoData ? (
           <LottieView
-            source={require('@assets/lottie/person-header.json')}
+            source={require('../../../../../assets/lottie/person-header.json')}
             autoPlay
             loop
             style={styles.lottieView}

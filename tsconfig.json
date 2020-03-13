@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
-    "paths": {
-      "@assets/*": ["assets/*"]
-    },
+    "paths": {},
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,

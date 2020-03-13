@@ -9,6 +9,6 @@ storiesOf('Banner', module)
     <Banner
       title={text('title', 'title')}
       secondaryTitle={text('secondaryTitle', 'secondary title')}
-      imgSrc={require('@assets/images/next-match.png')}
+      imgSrc={require('../../../../assets/images/next-match.png')}
     />
   ))
