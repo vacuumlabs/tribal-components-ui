@@ -16,7 +16,9 @@ It will start storybook on mobile (through Expo app) or in browser.
 
 ### 1. Installation
 
-...
+1. Go to [releases](https://github.com/vacuumlabs/tribal-components-ui/releases).
+1. Find release you want (probably latest) and copy link to download `tribal-components-ui-vx.x.x.tgz`.
+1. Use link as your install argument.
 
 ### 2. Installation of native packages
 
