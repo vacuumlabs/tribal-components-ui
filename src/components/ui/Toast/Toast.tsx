@@ -1,6 +1,6 @@
 import React, {useCallback, useEffect, useState} from 'react'
 import {Animated, StyleSheet, TouchableWithoutFeedback} from 'react-native'
-import {formatMessage} from '../../../utils/formats'
+import {formatMessage, getInset} from '../../../utils/helpers'
 import Text from '../Text/Text'
 
 const SLIDE_TIME = 500
@@ -40,8 +40,7 @@ interface ToastProps {
 }
 
 const Toast = ({message, disableAutoClose, onClose, onClosing}: ToastProps) => {
-  // TODO fix
-  const bottomNotchHeight = 64 // getInset('bottom', false)
+  const bottomNotchHeight = getInset('bottom', false)
   const [translateY] = useState(new Animated.Value(defaultOffset))
   const [timerDelay, setTimerDelay] = useState(0)
   const [timer] = useState(new Date().getTime())

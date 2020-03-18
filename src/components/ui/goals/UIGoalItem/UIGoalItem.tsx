@@ -1,6 +1,6 @@
 import React from 'react'
 import {Image, Platform, StyleSheet, TouchableHighlight, View} from 'react-native'
-import {formatMessage} from '../../../../utils/formats'
+import {formatMessage} from '../../../../utils/helpers'
 import ProgressBar from '../../ProgressBar/ProgressBar'
 import Text from '../../Text/Text'
 import {GOALS_IMAGES} from '../goals'

@@ -9,7 +9,7 @@ import {
   SectionList,
   StyleSheet,
 } from 'react-native'
-import {formatMessage} from '../../../../utils/formats'
+import {formatMessage} from '../../../../utils/helpers'
 import Button from '../../Button/Button'
 import ErrorView from '../../ErrorView/ErrorView'
 import Text from '../../Text/Text'

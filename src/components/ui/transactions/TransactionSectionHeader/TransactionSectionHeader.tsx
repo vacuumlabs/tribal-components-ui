@@ -1,6 +1,6 @@
 import React from 'react'
 import {StyleSheet, View} from 'react-native'
-import {formatMessage} from '../../../../utils/formats'
+import {formatMessage} from '../../../../utils/helpers'
 import Text from '../../Text/Text'
 
 const styles = StyleSheet.create({

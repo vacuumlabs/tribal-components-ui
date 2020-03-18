@@ -14,13 +14,15 @@ It will start storybook on mobile (through Expo app) or in browser.
 
 ## Use components in your project
 
-todo...
+### 1. Installation
 
-**!!! Important:**
+...
 
-Currently you have to install (and link) all native packages into your project on your own.
+### 2. Installation of native packages
 
-### Dev note
+Currently you have to install all native packages into your project manually.
+
+#### Dev note
 
 Goal is to install native packages automatically, which also ensures that same version of package is used. BUT issues are:
 
@@ -29,6 +31,7 @@ Goal is to install native packages automatically, which also ensures that same v
     Invariant Violation: Tried to register two views with the same name LottieAnimationView
     ```
   - possibly use same version as in this project, but then https://github.com/expo/expo/issues/4835#issuecomment-508932818
+  - in code -> // TODO colorFilters not supported
 - `@react-native-community/netinfo`
   - ```
     RNCNetInfo.getCurrentState got 2 arguments, expected 3
@@ -40,6 +43,16 @@ Goal is to install native packages automatically, which also ensures that same v
   - seems ok
 
 Also is ios working?
+
+### 3. Initialization
+
+In the initialization part of your project, you need to call `tribalComponentsUIInit` function and provide required parameters.
+
+#### Dev note
+
+- `formatMessage` should be defined internally
+- `getInset` should be defined internally (?)
+- `onErrorView` seems ok to be defined externally
 
 ## Additionally installed react-native packages
 

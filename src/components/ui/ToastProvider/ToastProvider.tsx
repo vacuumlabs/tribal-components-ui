@@ -1,6 +1,7 @@
 import {uniqueId} from 'lodash'
 import React, {createContext, useCallback, useEffect, useState} from 'react'
 import {Animated, StyleSheet, View} from 'react-native'
+import {getInset} from '../../../utils/helpers'
 import Toast from '../Toast/Toast'
 
 const SLIDE_TIME = 500
@@ -41,8 +42,7 @@ interface ToastProviderProps {
 export const ToastContext = createContext({} as ToastContextProps)
 
 export const ToastProvider = ({children}: ToastProviderProps) => {
-  // TODO fix
-  const bottomNotchHeight = 64 // getInset('bottom', false)
+  const bottomNotchHeight = getInset('bottom', false)
   const [toasts, setToasts] = useState<ToastProps[]>([])
   const [notchOverlayHeight] = useState(new Animated.Value(0))
 

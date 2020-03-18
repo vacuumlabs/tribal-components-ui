@@ -1,6 +1,6 @@
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
-import {formatMessage} from '../../../utils/formats'
+import {formatMessage} from '../../../utils/helpers'
 import Avatar from '../Avatar/Avatar'
 import ListItem from './ListItem'
 

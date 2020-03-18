@@ -1,6 +1,6 @@
 import React from 'react'
 import {ActivityIndicator, StyleSheet, View} from 'react-native'
-import {formatMessage} from '../../../../utils/formats'
+import {formatMessage} from '../../../../utils/helpers'
 import Button from '../../Button/Button'
 import Text from '../../Text/Text'
 

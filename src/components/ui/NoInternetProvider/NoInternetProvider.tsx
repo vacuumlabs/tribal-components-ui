@@ -1,6 +1,7 @@
 import NetInfo, {NetInfoState} from '@react-native-community/netinfo'
 import React, {createContext, useCallback, useEffect, useState} from 'react'
 import {StyleSheet, View} from 'react-native'
+import {getInset} from '../../../utils/helpers'
 import NoInternetBanner from '../NoInternetBanner/NoInternetBanner'
 
 const styles = StyleSheet.create({
@@ -24,8 +25,7 @@ interface NoInternetProviderProps {
 export const NoInternetContext = createContext({} as NoInternetContextProps)
 
 export const NoInternetProvider = ({children}: NoInternetProviderProps) => {
-  // TODO fix
-  const topNotchHeight = 64 // getInset('top', false)
+  const topNotchHeight = getInset('top', false)
   const [noInternet, setNoInternet] = useState(false)
 
   const onChange = useCallback((state: NetInfoState) => {

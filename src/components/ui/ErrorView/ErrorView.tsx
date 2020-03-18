@@ -1,6 +1,6 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {StyleSheet, View} from 'react-native'
-import {formatMessage} from '../../../utils/formats'
+import {formatMessage, onErrorView} from '../../../utils/helpers'
 import Button from '../Button/Button'
 import Text from '../Text/Text'
 
@@ -45,14 +45,9 @@ const ErrorView = ({
   errorMessage,
   action,
 }: RequireAtLeastOne<ErrorViewProps, 'error' | 'errorMessage'>) => {
-  // TODO fix
-  // useEffect(() => {
-  //   if (error) {
-  //     Sentry.captureException(error)
-  //   } else if (errorMessage) {
-  //     Sentry.captureMessage(errorMessage)
-  //   }
-  // }, [error, errorMessage])
+  useEffect(() => {
+    onErrorView(error, errorMessage)
+  }, [error, errorMessage])
 
   return (
     <View style={styles.wrapper}>

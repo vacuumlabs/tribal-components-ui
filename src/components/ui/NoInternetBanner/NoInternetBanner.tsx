@@ -1,6 +1,6 @@
 import React from 'react'
 import {StyleProp, StyleSheet, View, ViewStyle} from 'react-native'
-import {formatMessage} from '../../../utils/formats'
+import {formatMessage} from '../../../utils/helpers'
 import Icon from '../Icon/Icon'
 import Text from '../Text/Text'
 

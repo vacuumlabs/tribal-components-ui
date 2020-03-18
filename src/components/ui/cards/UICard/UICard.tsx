@@ -9,7 +9,7 @@ import {
   TouchableWithoutFeedback,
   View,
 } from 'react-native'
-import {formatMessage} from '../../../../utils/formats'
+import {formatMessage} from '../../../../utils/helpers'
 import Icon from '../../Icon/Icon'
 import Text from '../../Text/Text'
 
@@ -271,7 +271,7 @@ const UICard = ({
   return (
     <CardBackground>
       <TouchableWithoutFeedback onPress={onPress} style={styles.invisibleButton}>
-        <View>
+        <View style={styles.invisibleButton}>
           <View style={styles.pan}>
             <Text style={styles.cardEmbossText}>{maskedPan}</Text>
           </View>

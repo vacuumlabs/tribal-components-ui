@@ -175,13 +175,8 @@ const Button = ({
             loop
             speed={1}
             style={styles.lottieView}
-            // TODO fix
-            // colorFilters={[
-            //   {
-            //     keypath: '*',
-            //     color: COLORS.textColor[variant],
-            //   },
-            // ]}
+            // TODO colorFilters not supported
+            // colorFilters={[{keypath: '*', color: COLORS.textColor[variant]}]}
           />
         ) : (
           <>
