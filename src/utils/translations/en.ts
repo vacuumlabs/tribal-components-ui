@@ -1,6 +1,7 @@
 export default (formatters: Formatters) => ({
   common: {
     amount: ({amount}: any) => `${formatters.amount(amount, 'EUR')}`,
+    date: ({date, options}: any) => `${formatters.date(date, options)}`,
     processing: 'Processing',
     close: 'Close',
   },
@@ -27,7 +28,7 @@ export default (formatters: Formatters) => ({
   },
   transactionList: {
     noTransactionsText: 'No transactions yet.',
-    sectionTitle: ({date}: any) => `${formatters.date(date, 'month=long;year=numeric')}`,
+    sectionTitle: ({date}: any) => `${formatters.date(date, {month: 'long', year: 'numeric'})}`,
     backButton: 'Back to top',
   },
 })
