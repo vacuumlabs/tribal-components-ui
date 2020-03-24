@@ -9,7 +9,7 @@ import {
   TouchableWithoutFeedback,
   View,
 } from 'react-native'
-import {formatMessage} from '../../../../utils/helpers'
+import {formatMessage} from '../../../../utils/formats'
 import Icon from '../../Icon/Icon'
 import Text from '../../Text/Text'
 
@@ -244,7 +244,7 @@ const UICard = ({
         </View>
         <View style={styles.action}>
           <Text variant="headline" style={styles.nameText}>
-            {formatMessage('card', 'cardProcessing')}
+            {formatMessage('card', 'orderProcessing')}
           </Text>
         </View>
       </CardBackground>

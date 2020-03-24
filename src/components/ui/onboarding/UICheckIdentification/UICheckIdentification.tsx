@@ -1,6 +1,6 @@
 import React from 'react'
 import {ActivityIndicator, StyleSheet, View} from 'react-native'
-import {formatMessage} from '../../../../utils/helpers'
+import {formatMessage} from '../../../../utils/formats'
 import Button from '../../Button/Button'
 import Text from '../../Text/Text'
 
@@ -38,7 +38,7 @@ const UICheckIdentification = ({
       )}
     </View>
     <Button
-      title={formatMessage('identification', 'checkButton')}
+      title={formatMessage('checkIdentification', 'actionText')}
       onPress={handleCheckIdentification}
       size="large"
     />

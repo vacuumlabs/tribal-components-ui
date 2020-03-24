@@ -1,6 +1,6 @@
 import React, {ReactElement} from 'react'
 import {StyleSheet, View} from 'react-native'
-import {formatMessage} from '../../../utils/helpers'
+import {formatMessage} from '../../../utils/formats'
 import InputField from '../InputField/InputField'
 
 const styles = StyleSheet.create({

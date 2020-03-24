@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react'
 import {StyleSheet, View} from 'react-native'
-import {formatMessage, onErrorView} from '../../../utils/helpers'
+import {formatMessage} from '../../../utils/formats'
+import {onErrorView} from '../../../utils/helpers'
 import Button from '../Button/Button'
 import Text from '../Text/Text'
 

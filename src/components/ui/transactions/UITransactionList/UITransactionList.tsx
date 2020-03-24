@@ -9,7 +9,7 @@ import {
   SectionList,
   StyleSheet,
 } from 'react-native'
-import {formatMessage} from '../../../../utils/helpers'
+import {formatMessage} from '../../../../utils/formats'
 import Button from '../../Button/Button'
 import ErrorView from '../../ErrorView/ErrorView'
 import Text from '../../Text/Text'
@@ -139,7 +139,7 @@ const UITransactionList = <Transaction extends {id: string}>({
             <ErrorView error={error} action={refetch} />
           ) : (
             <Text variant="body" style={styles.emptyText}>
-              {emptyMessage || formatMessage('transactionsList', 'noTransactionsText')}
+              {emptyMessage || formatMessage('transactionList', 'noTransactionsText')}
             </Text>
           )
         }
@@ -153,7 +153,7 @@ const UITransactionList = <Transaction extends {id: string}>({
         onEndReached={onEndReached}
         renderSectionHeader={({section: {date, amount}}) => (
           <TransactionSectionHeader
-            title={formatMessage('transactionsList', 'sectionTitle', {
+            title={formatMessage('transactionList', 'sectionTitle', {
               date: new Date(date),
             })}
             amount={amount}
@@ -169,7 +169,7 @@ const UITransactionList = <Transaction extends {id: string}>({
           size="large"
           isFullWidth={false}
           onPress={handleScrollToTop}
-          title={formatMessage('transactionsList', 'backToTopButton')}
+          title={formatMessage('transactionList', 'backButton')}
           variant="filled"
           style={styles.backButton}
           titleStyle={styles.backButtonText}

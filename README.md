@@ -28,20 +28,20 @@ Currently you have to install all native packages into your project manually.
 
 Goal is to install native packages automatically, which also ensures that same version of package is used. BUT issues are:
 
-- `lottie-react-native`
+- ❌ `lottie-react-native`
   - ```
     Invariant Violation: Tried to register two views with the same name LottieAnimationView
     ```
   - possibly use same version as in this project, but then https://github.com/expo/expo/issues/4835#issuecomment-508932818
   - in code -> // TODO colorFilters not supported
-- `@react-native-community/netinfo`
+- ❌ `@react-native-community/netinfo`
   - ```
     RNCNetInfo.getCurrentState got 2 arguments, expected 3
     ```
   - with higher version, same error happens in this project
-- `react-native-svg`
+- ✅ `react-native-svg`
   - seems ok
-- `expo-linear-gradient`
+- ✅ `expo-linear-gradient`
   - seems ok
 
 Also is ios working?
@@ -52,9 +52,8 @@ In the initialization part of your project, you need to call `tribalComponentsUI
 
 #### Dev note
 
-- `formatMessage` should be defined internally
-- `getInset` should be defined internally (?)
-- `onErrorView` seems ok to be defined externally
+- ❓ `getInset` should be defined internally (?)
+- ✅ `onErrorView` seems ok to be defined externally
 
 ## Additionally installed react-native packages
 

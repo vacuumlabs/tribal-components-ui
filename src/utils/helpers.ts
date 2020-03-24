@@ -1,7 +1,3 @@
-export let formatMessage = (group: string, key: string, values?: object) => {
-  return `${group}-${key}-${JSON.stringify(values)}`
-}
-
 export let getInset = (key: 'top' | 'right' | 'bottom' | 'left', isLandscape?: boolean) => {
   // not used
   key
@@ -16,11 +12,9 @@ export let onErrorView = (error?: Error, errorMessage?: string) => {
 }
 
 export const tribalComponentsUIInit = (
-  _formatMessage: (group: any, key: any, values?: any) => string,
   _getInset: (key: 'top' | 'right' | 'bottom' | 'left', isLandscape?: boolean) => number,
   _onErrorView: (error?: Error, errorMessage?: string) => void,
 ) => {
-  formatMessage = _formatMessage
   getInset = _getInset
   onErrorView = _onErrorView
 }

@@ -1,6 +1,7 @@
 import React, {useCallback, useEffect, useState} from 'react'
 import {Animated, StyleSheet, TouchableWithoutFeedback} from 'react-native'
-import {formatMessage, getInset} from '../../../utils/helpers'
+import {formatMessage} from '../../../utils/formats'
+import {getInset} from '../../../utils/helpers'
 import Text from '../Text/Text'
 
 const SLIDE_TIME = 500

@@ -1,6 +1,6 @@
 import React, {ReactNode} from 'react'
 import {StyleSheet, TouchableHighlight, View} from 'react-native'
-import {formatMessage} from '../../../utils/helpers'
+import {formatMessage} from '../../../utils/formats'
 import Badge, {BadgeProps} from '../Badge/Badge'
 import Text from '../Text/Text'
 
