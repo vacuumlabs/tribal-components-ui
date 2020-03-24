@@ -1,6 +1,5 @@
 import {storiesOf} from '@storybook/react-native'
 import React from 'react'
-import {formatMessage} from '../../../utils/helpers'
 import Avatar from '../Avatar/Avatar'
 import ListItem from './ListItem'
 
@@ -10,7 +9,7 @@ storiesOf('ListItem', module)
       avatarComponent={<Avatar icon="card" sign="minus" />}
       title="ATM Withdrawal"
       description="15:27"
-      value={formatMessage('common', 'amount', {amount: -5000})}
+      value="-50.00€"
     />
   ))
   .add('Card payment', () => (
@@ -18,7 +17,7 @@ storiesOf('ListItem', module)
       avatarComponent={<Avatar icon="card" sign="minus" />}
       title="Card payment"
       description="15:27"
-      value={formatMessage('common', 'amount', {amount: -5000})}
+      value="-50.00€"
     />
   ))
   .add('Debit payment (IBAN)', () => (
@@ -26,7 +25,7 @@ storiesOf('ListItem', module)
       avatarComponent={<Avatar icon="human" sign="minus" />}
       title="SK11 8671 5282 7556 2765 9999"
       description="15:27"
-      value={formatMessage('common', 'amount', {amount: -5000})}
+      value="-50.00€"
     />
   ))
   .add('Credit payment (Contact)', () => (
@@ -34,7 +33,7 @@ storiesOf('ListItem', module)
       avatarComponent={<Avatar initials="BW" sign="plus" />}
       title="Bruce Wayne"
       description="15:27"
-      value={formatMessage('common', 'amount', {amount: 2000})}
+      value="20.00€"
     />
   ))
   .add('Recurrent payment', () => (
@@ -42,7 +41,7 @@ storiesOf('ListItem', module)
       avatarComponent={<Avatar icon="recurrent" sign="minus" />}
       title="Bruce Banner"
       description="15:27"
-      value={formatMessage('common', 'amount', {amount: -5000})}
+      value="-50.00€"
     />
   ))
   .add('Transaction to goal', () => (
@@ -50,7 +49,7 @@ storiesOf('ListItem', module)
       avatarComponent={<Avatar icon="save" sign="minus" />}
       title="Card payment"
       description="15:27"
-      value={formatMessage('common', 'amount', {amount: -5000})}
+      value="-50.00€"
     />
   ))
   .add('Recurrent transaction to goal', () => (
@@ -58,7 +57,7 @@ storiesOf('ListItem', module)
       avatarComponent={<Avatar icon="recurrent" sign="minus" />}
       title="Card payment"
       description="15:27"
-      value={formatMessage('common', 'amount', {amount: -5000})}
+      value="-50.00€"
     />
   ))
   .add('Reported transaction', () => (
@@ -66,8 +65,8 @@ storiesOf('ListItem', module)
       avatarComponent={<Avatar icon="recurrent" sign="minus" />}
       title="Card payment"
       description="15:27"
-      value={formatMessage('common', 'amount', {amount: -5000})}
-      badgeLabel={formatMessage('common', 'reported')}
+      value="-50.00€"
+      badgeLabel="Reported"
       badgeVariant="danger"
     />
   ))
@@ -76,8 +75,8 @@ storiesOf('ListItem', module)
       avatarComponent={<Avatar icon="recurrent" sign="minus" />}
       title="Card payment"
       description="15:27"
-      value={formatMessage('common', 'amount', {amount: -5000})}
-      badgeLabel={formatMessage('common', 'processing')}
+      value="-50.00€"
+      badgeLabel="Processing"
       badgeVariant="secondary"
     />
   ))
@@ -86,8 +85,8 @@ storiesOf('ListItem', module)
       avatarComponent={<Avatar icon="recurrent" sign="minus" />}
       title="Card payment"
       description="15:27"
-      value={formatMessage('common', 'amount', {amount: -5000})}
-      badgeLabel={formatMessage('common', 'declined')}
+      value="-50.00€"
+      badgeLabel="Declined"
       badgeVariant="danger"
     />
   ))
