@@ -10,7 +10,7 @@
   ],
   "private": true,
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --clear",
     "eject": "expo eject",
     "storybook": "concurrently \"yarn start\" \"start-storybook -p 7007\"",
     "storybook-web": "concurrently \"yarn start --web\" \"start-storybook -p 7007\"",

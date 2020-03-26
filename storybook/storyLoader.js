@@ -27,6 +27,7 @@ function loadStories() {
 	require('../src/components/ui/ProgressBar/ProgressBar.stories');
 	require('../src/components/ui/PropertyItem/PropertyItem.stories');
 	require('../src/components/ui/RadioButton/RadioButton.stories');
+	require('../src/components/ui/ScreenBlockProvider/ScreenBlockProvider.stories');
 	require('../src/components/ui/SearchBar/SearchBar.stories');
 	require('../src/components/ui/SectionHeader/SectionHeader.stories');
 	require('../src/components/ui/SegmentedControl/SegmentedControl.stories');
@@ -71,6 +72,7 @@ const stories = [
 	'../src/components/ui/ProgressBar/ProgressBar.stories',
 	'../src/components/ui/PropertyItem/PropertyItem.stories',
 	'../src/components/ui/RadioButton/RadioButton.stories',
+	'../src/components/ui/ScreenBlockProvider/ScreenBlockProvider.stories',
 	'../src/components/ui/SearchBar/SearchBar.stories',
 	'../src/components/ui/SectionHeader/SectionHeader.stories',
 	'../src/components/ui/SegmentedControl/SegmentedControl.stories',
