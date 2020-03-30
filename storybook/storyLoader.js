@@ -47,6 +47,7 @@ function loadStories() {
 	require('../src/components/ui/onboarding/UICheckIdentification/UICheckIdentification.stories');
 	require('../src/components/ui/recurringPayments/UIRecurringDates/UIRecurringDates.stories');
 	require('../src/components/ui/transactions/TransactionSectionHeader/TransactionSectionHeader.stories');
+	require('../src/components/ui/transactions/UITransactionList/UITransactionList.stories');
 }
 
 const stories = [
@@ -92,7 +93,8 @@ const stories = [
 	'../src/components/ui/header/HeaderRightButton/HeaderRightButton.stories',
 	'../src/components/ui/onboarding/UICheckIdentification/UICheckIdentification.stories',
 	'../src/components/ui/recurringPayments/UIRecurringDates/UIRecurringDates.stories',
-	'../src/components/ui/transactions/TransactionSectionHeader/TransactionSectionHeader.stories'
+	'../src/components/ui/transactions/TransactionSectionHeader/TransactionSectionHeader.stories',
+	'../src/components/ui/transactions/UITransactionList/UITransactionList.stories'
 ];
 
 module.exports = {
