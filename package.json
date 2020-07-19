@@ -17,7 +17,7 @@
     "prestorybook": "rnstl"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "react-native-snap-carousel": "^3.8.4",
     "rmc-date-picker": "^6.0.10"
   },
